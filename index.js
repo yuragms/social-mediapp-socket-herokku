@@ -40,7 +40,8 @@
 
 const io = require("socket.io")(process.env.PORT || 8800, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://socialmedia-app-yuragms.netlify.app",
+    // origin: "http://localhost:3000",
   },
 });
 
